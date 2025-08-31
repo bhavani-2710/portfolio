@@ -71,7 +71,7 @@ const About = () => {
             {infoList.map(({ icon, iconDark, title, description }, index) => (
               <motion.li
                 whileHover={{ scale: 1.05 }}
-                className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-light-hover hover:shadow-black hover:-translate-y-1 duration-500 dark:border-white dark:hover:shadow-white dark:hover:bg-dark-hover"
+                className="border-[0.5px] border-gray-400 rounded-xl p-4 cursor-pointer hover:bg-light-hover hover:shadow-black hover:-translate-y-1 duration-500 dark:border-white dark:hover:shadow-white dark:hover:bg-dark-hover"
                 key={index}
               >
                 <Image
@@ -93,7 +93,7 @@ const About = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 1.3 }}
-            className="my-6 text-gray-700 font-ovo dark:text-white/80"
+            className="mt-6 mb-2 text-gray-700 font-ovo dark:text-white/80"
           >
             Tools I use:{" "}
           </motion.h4>
