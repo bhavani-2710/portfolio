@@ -47,7 +47,7 @@ const Contact = () => {
   return (
     <motion.div
       id="contact"
-      className="w-full px-[12%] py-10 scroll-mt-20 font-outfit bg-[url('/footer-bg-color.png')] bg-no-repeat bg-center bg-[length:90%_auto] dark:bg-none"
+      className="w-full px-[12%] py-10 scroll-mt-20 font-outfit"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
