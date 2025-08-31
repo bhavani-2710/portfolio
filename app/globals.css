@@ -1,70 +1,19 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 /* your custom variables */
-:root {
+@theme {
   --font-ovo: "Ovo", serif;
   --font-outfit: "Outfit", sans-serif;
-  --font-libertinus: "Libertinus Serif", serif;
 
-  --light-hover: #fcf4ff;
-  --dark-hover: #2a004a;
-  --dark-theme: #11001f;
+  --color-light-hover: #fcf4ff;
+  --color-dark-hover: #2a004a;
+  --color-dark-theme: #11001f;
 
-  --shadow-black: 4px 4px 0 #000;
+  --shadow-black: 4px 4px 0 #000; 
   --shadow-white: 4px 4px 0 #fff;
 
-}
-
-/* Font utilities */
-.font-ovo {
-  font-family: var(--font-ovo);
-}
-
-.font-outfit {
-  font-family: var(--font-outfit);
-}
-
-.font-libertinus {
-  font-family: var(--font-libertinus);
-}
-
-/* Backgrounds */
-.bg-light-hover {
-  background-color: var(--light-hover);
-}
-
-.bg-dark-hover {
-  background-color: var(--dark-hover);
-}
-
-.bg-dark-theme {
-  background-color: var(--dark-theme);
-}
-
-/* Shadows */
-.shadow-black {
-  box-shadow: var(--shadow-black);
-}
-
-.shadow-white {
-  box-shadow: var(--shadow-white);
-}
-
-/* Hover helpers */
-.hover\:shadow-black:hover {
-  box-shadow: var(--shadow-black);
-}
-
-.hover\:shadow-white:hover {
-  box-shadow: var(--shadow-white);
-}
-
-.hover\:bg-light-hover:hover {
-  background-color: var(--light-hover);
-}
-
-.hover\:bg-dark-hover:hover {
-  background-color: var(--dark-hover);
 }
 
 /* Custom Grid Templates */

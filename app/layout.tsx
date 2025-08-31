@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Outfit, Ovo, Libertinus_Serif } from "next/font/google";
+import { Outfit, Ovo } from "next/font/google";
 import "./globals.css";
+import { DarkModeProvider } from "./components/context/DarkModeContext";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -14,12 +15,6 @@ const ovo = Ovo({
   variable: "--font-ovo",
 });
 
-const libertinusSerif = Libertinus_Serif({
-  subsets: ["latin"],
-  variable: "--font-libertinus",
-  weight: "400",
-});
-
 export const metadata: Metadata = {
   title: "Portfolio",
   description: "",
@@ -31,11 +26,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning className="scroll-smooth">
+    <html lang="en" suppressHydrationWarning className="scroll-smooth dark">
       <body
-        className={`${outfit.variable} ${ovo.variable} ${libertinusSerif.variable} antialiased leading-8 overflow-x-hidden`}
+        className={`${outfit.variable} ${ovo.variable} antialiased leading-8 overflow-x-hidden dark:bg-[#11001f] dark:text-white`}
       >
-        {children}
+        <DarkModeProvider>{children}</DarkModeProvider>
       </body>
     </html>
   );

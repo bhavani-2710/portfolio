@@ -1,8 +1,10 @@
 import { assets, workData } from "@/assets/assets";
 import Image from "next/image";
 import React from "react";
+import { useDarkMode } from "./context/DarkModeContext";
 
 const Work = () => {
+  const { isDarkMode } = useDarkMode();
   return (
     <div id="work" className="w-full px-[12%] py-10 scroll-mt-20 font-outfit">
       <h4 className="text-center mb-2 text-lg font-ovo">My Portfolio</h4>
@@ -14,7 +16,7 @@ const Work = () => {
         design to backend logic.
       </p>
 
-      <div className="grid grid-cols-auto my-10 gap-5">
+      <div className="grid grid-cols-auto my-10 gap-5 dark:text-black">
         {workData.map((project, index) => (
           <div
             className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
@@ -34,8 +36,18 @@ const Work = () => {
         ))}
       </div>
 
-      <a href="" className="w-max flex items-center justify-center
-      gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-light-hover duration-500">Show More <Image src={assets.right_arrow_bold} alt="right arrow" className="w-4" /></a>
+      <a
+        href=""
+        className="w-max flex items-center justify-center
+      gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-light-hover duration-500 dark:text-white dark:border-white dark:hover:bg-dark-hover"
+      >
+        Show More{" "}
+        <Image
+          src={isDarkMode ? assets.right_arrow_bold_dark : assets.right_arrow_bold}
+          alt="right arrow"
+          className="w-4"
+        />
+      </a>
     </div>
   );
 };
