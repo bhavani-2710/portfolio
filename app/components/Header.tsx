@@ -21,7 +21,7 @@ const Header = () => {
         className="flex items-center
         gap-2 text-xl md:text-2xl mb-3 font-ovo"
       >
-        Hi! I'm Bhavani Murali{" "}
+        Hi! I&apos;m Bhavani Murali{" "}
         <Image src={assets.hand_icon} alt="" className="rounded-full w-6" />
       </motion.h3>
       <motion.h1
