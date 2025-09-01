@@ -8,6 +8,7 @@ const Contact = () => {
   const [result, setResult] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
   const [resultColor, setResultColor] = useState("white");
+  const ACCESS_KEY = process.env.NEXT_PUBLIC_WEB3FORM_ACCESS_KEY;
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -17,7 +18,10 @@ const Contact = () => {
     const form = event.currentTarget; // 👈 capture reference immediately
 
     const formData = new FormData(form);
-    formData.append("access_key", "068cf1eb-2a2c-410b-8f7b-f15db7b044a7");
+    if (!ACCESS_KEY) {
+      throw new Error("Web3Form access key is not defined in .env");
+    }
+    formData.append("access_key", ACCESS_KEY);
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
