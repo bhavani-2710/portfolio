@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <motion.div
       id="services"
-      className="w-full px-[12%] py-10 scroll-mt-20 font-outfit" initial={{ opacity: 0 }}
+      className="w-full px-[12%] py-10 scroll-mt-40 font-outfit" initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1 }}
     >

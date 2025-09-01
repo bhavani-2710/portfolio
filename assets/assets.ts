@@ -46,6 +46,7 @@ import linkedin from "./linkedin.png";
 import linkedin_dark from "./linkedin-dark.png";
 import twitter from "./twitter.png";
 import twitter_dark from "./twitter-dark.png";
+import { Project, Service, Skill, Tools } from "@/types";
 
 export const assets = {
   user_image,
@@ -98,7 +99,7 @@ export const assets = {
   twitter_dark,
 };
 
-export const workData = [
+export const workData:Project[] = [
   {
     title: "ResQall - Voice Activated SOS App",
     description:
@@ -143,7 +144,6 @@ export const workData = [
     liveLink: "https://phronesis.csiace.com/",
   },
   {
-    title: "SmartMinutes - AI Meeting Minutes Generator",
     title: "SmartMinutes - AI Meeting Minutes Generator",
     description:
       "An intelligent app that records meetings, transcribes audio using AI, and generates concise summaries. It helps teams save time by automatically capturing key points and action items from discussions.",
@@ -191,7 +191,7 @@ export const workData = [
   },
 ];
 
-export const serviceData = [
+export const serviceData: Service[] = [
   {
     icon: assets.web_icon,
     title: "Web Development",
@@ -206,7 +206,7 @@ export const serviceData = [
   },
 ];
 
-export const infoList = [
+export const infoList: Skill[] = [
   {
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
@@ -227,7 +227,7 @@ export const infoList = [
   },
 ];
 
-export const toolsData = [
+export const toolsData: Tools = [
   assets.vscode,
   assets.firebase,
   assets.mongodb,
