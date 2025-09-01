@@ -71,7 +71,7 @@ const About = () => {
             {infoList.map(({ icon, iconDark, title, description }, index) => (
               <motion.li
                 whileHover={{ scale: 1.05 }}
-                className="border-[0.5px] mx-auto w-xs border-gray-400 bg-white rounded-xl p-3 sm:p-4 cursor-pointer hover:bg-light-hover hover:shadow-black hover:-translate-y-1 duration-500 dark:bg-violet-950 dark:border-white dark:hover:shadow-white dark:hover:bg-dark-hover"
+                className="border-[0.5px] border-gray-400 bg-white rounded-xl p-3 sm:p-4 cursor-pointer hover:bg-light-hover hover:shadow-black hover:-translate-y-1 duration-500 dark:bg-violet-950 dark:border-white dark:hover:shadow-white dark:hover:bg-dark-hover"
                 key={index}
               >
                 <Image
@@ -106,7 +106,7 @@ const About = () => {
             {toolsData.map((tool, index) => (
               <motion.li
                 whileHover={{ scale: 1.05 }}
-                className="flex items-center justify-center w-10 mx-auto sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+                className="flex items-center justify-center w-8 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
                 key={index}
               >
                 <Image src={tool} alt="Tool" className="w-5 sm:w-7" />
