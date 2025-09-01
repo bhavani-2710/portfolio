@@ -57,7 +57,7 @@ const About = () => {
         >
           <p className="mb-10 max-w-2xl font-ovo text-justify">
             I am a Full-Stack Developer passionate about creating secure,
-            scalable, and user-friendly web and mobile applications. I’ve worked on
+            scalable, and user-friendly web and mobile applications. I&apos;ve worked on
             projects ranging from real-time systems to personalized platforms,
             contributing innovative solutions and impactful results.
           </p>
@@ -71,18 +71,18 @@ const About = () => {
             {infoList.map(({ icon, iconDark, title, description }, index) => (
               <motion.li
                 whileHover={{ scale: 1.05 }}
-                className="border-[0.5px] border-gray-400 bg-white rounded-xl p-4 cursor-pointer hover:bg-light-hover hover:shadow-black hover:-translate-y-1 duration-500 dark:bg-violet-950 dark:border-white dark:hover:shadow-white dark:hover:bg-dark-hover"
+                className="border-[0.5px] mx-auto w-xs border-gray-400 bg-white rounded-xl p-3 sm:p-4 cursor-pointer hover:bg-light-hover hover:shadow-black hover:-translate-y-1 duration-500 dark:bg-violet-950 dark:border-white dark:hover:shadow-white dark:hover:bg-dark-hover"
                 key={index}
               >
                 <Image
                   src={isDarkMode ? iconDark : icon}
                   alt={title}
-                  className="w-7 mt-3"
+                  className="w-6 sm:w-7 mt-2 sm:mt-3"
                 />
-                <h3 className="my-4 font-semibold text-gray-700 dark:text-white">
+                <h3 className="my-2 sm:my-4 text-sm sm:text-base font-semibold text-gray-700 dark:text-white">
                   {title}
                 </h3>
-                <p className="text-gray-600 text-sm dark:text-white/80">
+                <p className="text-xs sm:text-sm text-gray-600 dark:text-white/80">
                   {description}
                 </p>
               </motion.li>
@@ -106,7 +106,7 @@ const About = () => {
             {toolsData.map((tool, index) => (
               <motion.li
                 whileHover={{ scale: 1.05 }}
-                className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+                className="flex items-center justify-center w-10 mx-auto sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
                 key={index}
               >
                 <Image src={tool} alt="Tool" className="w-5 sm:w-7" />
