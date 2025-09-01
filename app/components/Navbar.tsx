@@ -79,24 +79,15 @@ const Navbar = () => {
         </ul>
 
         <div className="flex items-center gap-4">
-          <button className="cursor-pointer" onClick={toggleDarkMode}>
+          <button className="hidden md:flex flex-row items-center p-2 rounded-full gap-2 cursor-pointer" onClick={toggleDarkMode}>
+            <div>
             <Image
               src={isDarkMode ? assets.sun_icon : assets.moon_icon}
               alt=""
               className="w-6"
-            />
+            /></div>
+            <span>{isDarkMode ? "Light Mode" : "Dark Mode"}</span>
           </button>
-          <a
-            href="#contact"
-            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-ovo dark:border-white/50"
-          >
-            Contact{" "}
-            <Image
-              src={isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon}
-              alt="arrow_icon"
-              className="w-3"
-            />
-          </a>
 
           <button
             className="block md:hidden ml-3 cursor-pointer"

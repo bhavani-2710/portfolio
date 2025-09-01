@@ -36,10 +36,11 @@ import ui_icon from "./ui-icon.png";
 import graphics_icon from "./graphics-icon.png";
 import right_arrow from "./right-arrow.png";
 import send_icon from "./send-icon.png";
+import send_icon_white from "./send-icon-white.png";
 import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
-import dark_bg_hero from './dark-bg-hero.jpg'
-import light_bg_hero from './light-bg-hero.jpg'
+import dark_bg_hero from "./dark-bg-hero.jpg";
+import light_bg_hero from "./light-bg-hero.jpg";
 
 export const assets = {
   user_image,
@@ -80,43 +81,93 @@ export const assets = {
   graphics_icon,
   right_arrow,
   send_icon,
+  send_icon_white,
   right_arrow_bold,
   right_arrow_bold_dark,
   dark_bg_hero,
-  light_bg_hero
+  light_bg_hero,
 };
 
 export const workData = [
   {
-    title: "ResQall",
-    description: "Mobile App",
+    title: "ResQall - Voice Activated SOS App",
+    description:
+      "A life-saving mobile application that activates emergency protocols through secret voice commands. When triggered, it captures photos and audio evidence while automatically sending distress alerts via email to emergency contacts.",
+    features: [
+      "Secret voice command activation",
+      "Emergency email alerts",
+      "Automatic photo & audio capture",
+      "Privacy-focused design",
+    ],
+    technologies: [
+      "React Native",
+      "Voice Recognition API",
+      "Camera API",
+      "Email Integration",
+    ],
     bgImage: "/work-1.png",
+    codeLink: "https://github.com/bhavani-2710/resQall",
+  },
+  {
+    title: "NewsHub - Personalized News Aggregator",
+    description:
+      "An intelligent news platform that learns user preferences to deliver customized news content. Features smart recommendations, content filtering, and a 'save for later' functionality for seamless news consumption.",
+    features: [
+      "AI-powered recommendations",
+      "Content categorization",
+      "Responsive design",
+      "User preference learning",
+      "Save for later functionality",
+    ],
+    technologies: [
+      "React.js",
+      "Node.js",
+      "MongoDb",
+      "Express",
+      "News API",
+      "Local Storage",
+    ],
+    bgImage: "/work-3.png",
+    codeLink: "https://github.com/bhavani-2710/Personalized-News-Aggregator",
+    liveLink: "https://personalized-news-aggregator-frontend.onrender.com/"
   },
   {
     title: "Aptitude Portal",
-    description: "Website",
+    description:
+      "An adaptive learning platform powered by AI that provides personalized aptitude tests. Features comprehensive analytics, performance tracking, and intelligent question adaptation based on user responses.",
+    features: [
+      "Adaptive question difficulty",
+      "User progress tracking",
+      "Real-time scoring",
+      "Performance analytics",
+      "Multiple test categories",
+    ],
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Javascript(ES6+)",
+      "PostgreSQL",
+      "AI Algorithms",
+    ],
     bgImage: "/work-4.png",
-  },
-  {
-    title: "NewsHub",
-    description: "Website",
-    bgImage: "/work-3.png",
+    codeLink: "https://github.com/jaypatelll1/csi-aptitude-portal",
+    liveLink: "https://phronesis.csiace.com/"
   },
 ];
 
 export const serviceData = [
   {
     icon: assets.web_icon,
-    title: "Web design",
-    description: "Web development is the process of building, programming...",
-    link: "",
+    title: "Web Development",
+    description:
+      "Building responsive and functional websites and web apps with clean UI and optimized performance.",
   },
   {
     icon: assets.mobile_icon,
-    title: "Mobile app",
+    title: "Mobile App",
     description:
-      "Mobile app development involves creating software for mobile devices...",
-    link: "",
+      "Creating intuitive and high-performance mobile apps for iOS and Android devices.",
   },
 ];
 
@@ -148,5 +199,5 @@ export const toolsData = [
   assets.postgresql,
   assets.react,
   assets.javascript,
-  assets.tailwindcss
+  assets.tailwindcss,
 ];

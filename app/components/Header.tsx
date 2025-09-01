@@ -2,6 +2,7 @@ import { assets } from "@/assets/assets";
 import Image from "next/image";
 import React from "react";
 import { motion } from "motion/react";
+import Typewriter from "typewriter-effect";
 
 const Header = () => {
   return (
@@ -29,7 +30,13 @@ const Header = () => {
         transition={{ duration: 0.8, delay: 0.5 }}
         className="text-3xl sm:text-6xl lg:text-[66px] font-ovo"
       >
-        full-stack developer based in India.
+        <Typewriter
+          options={{
+            strings: "full-stack developer",
+            autoStart: true,
+            loop: true,
+          }}
+        />
       </motion.h1>
       <motion.p
         initial={{ opacity: 0 }}

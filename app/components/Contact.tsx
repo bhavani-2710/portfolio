@@ -118,7 +118,7 @@ const Contact = () => {
           className="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6 dark:bg-dark-hover/30 dark:border-white/90"
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 1.3 }}
+          transition={{ duration: 0.6, delay: 1.2 }}
           suppressHydrationWarning
         ></motion.textarea>
 

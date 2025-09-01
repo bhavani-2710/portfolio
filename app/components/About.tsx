@@ -55,9 +55,9 @@ const About = () => {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="flex-1"
         >
-          <p className="mb-10 max-w-2xl font-ovo">
+          <p className="mb-10 max-w-2xl font-ovo text-justify">
             I am a Full-Stack Developer passionate about creating secure,
-            scalable, and user-friendly web applications. I’ve worked on
+            scalable, and user-friendly web and mobile applications. I’ve worked on
             projects ranging from real-time systems to personalized platforms,
             contributing innovative solutions and impactful results.
           </p>
@@ -71,7 +71,7 @@ const About = () => {
             {infoList.map(({ icon, iconDark, title, description }, index) => (
               <motion.li
                 whileHover={{ scale: 1.05 }}
-                className="border-[0.5px] border-gray-400 rounded-xl p-4 cursor-pointer hover:bg-light-hover hover:shadow-black hover:-translate-y-1 duration-500 dark:border-white dark:hover:shadow-white dark:hover:bg-dark-hover"
+                className="border-[0.5px] border-gray-400 bg-white rounded-xl p-4 cursor-pointer hover:bg-light-hover hover:shadow-black hover:-translate-y-1 duration-500 dark:bg-violet-950 dark:border-white dark:hover:shadow-white dark:hover:bg-dark-hover"
                 key={index}
               >
                 <Image
