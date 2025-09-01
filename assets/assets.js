@@ -95,7 +95,7 @@ export const assets = {
   linkedin,
   linkedin_dark,
   twitter,
-  twitter_dark
+  twitter_dark,
 };
 
 export const workData = [
@@ -110,36 +110,14 @@ export const workData = [
       "Privacy-focused design",
     ],
     technologies: [
-      "React Native",
+      "React Native (Expo)",
       "Voice Recognition API",
-      "Camera API",
+      "Firebase",
       "Email Integration",
+      "Zapier",
     ],
     bgImage: "/work-1.png",
     codeLink: "https://github.com/bhavani-2710/resQall",
-  },
-  {
-    title: "NewsHub - Personalized News Aggregator",
-    description:
-      "An intelligent news platform that learns user preferences to deliver customized news content. Features smart recommendations, content filtering, and a 'save for later' functionality for seamless news consumption.",
-    features: [
-      "AI-powered recommendations",
-      "Content categorization",
-      "Responsive design",
-      "User preference learning",
-      "Save for later functionality",
-    ],
-    technologies: [
-      "React.js",
-      "Node.js",
-      "MongoDb",
-      "Express",
-      "News API",
-      "Local Storage",
-    ],
-    bgImage: "/work-3.png",
-    codeLink: "https://github.com/bhavani-2710/Personalized-News-Aggregator",
-    liveLink: "https://personalized-news-aggregator-frontend.onrender.com/"
   },
   {
     title: "Aptitude Portal",
@@ -162,7 +140,54 @@ export const workData = [
     ],
     bgImage: "/work-4.png",
     codeLink: "https://github.com/jaypatelll1/csi-aptitude-portal",
-    liveLink: "https://phronesis.csiace.com/"
+    liveLink: "https://phronesis.csiace.com/",
+  },
+  {
+    title: "SmartMinutes - AI Meeting Minutes Generator",
+    title: "SmartMinutes - AI Meeting Minutes Generator",
+    description:
+      "An intelligent app that records meetings, transcribes audio using AI, and generates concise summaries. It helps teams save time by automatically capturing key points and action items from discussions.",
+    features: [
+      "Real-time audio recording",
+      "AI transcription and summarization",
+      "Searchable meeting history",
+      "Exportable notes and summaries",
+      "Offline-first design with local storage",
+    ],
+    technologies: [
+      "React Native (Expo)",
+      "AssemblyAI",
+      "HuggingFace",
+      "Firebase",
+      "Audio Player Integration",
+      "Zapier",
+      "Email Integration",
+    ],
+    bgImage: "/work-2.png",
+    codeLink: "https://github.com/bhavani-2710/Smart-Minutes-App",
+  },
+  {
+    title: "NewsHub - Personalized News Aggregator",
+    description:
+      "An intelligent news platform that learns user preferences to deliver customized news content. Features smart recommendations, content filtering, and a 'save for later' functionality for seamless news consumption.",
+    features: [
+      "AI-powered recommendations",
+      "Content categorization",
+      "Responsive design",
+      "User preference learning",
+      "Save for later functionality",
+    ],
+    technologies: [
+      "React.js",
+      "Node.js",
+      "MongoDb",
+      "Express",
+      "News API",
+      "Local Storage",
+    ],
+    bgImage: "/work-3.png",
+    codeLink: "https://github.com/bhavani-2710/Personalized-News-Aggregator",
+    liveLink: "https://personalized-news-aggregator-frontend.onrender.com/",
   },
 ];
 
