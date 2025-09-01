@@ -41,6 +41,11 @@ import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
 import dark_bg_hero from "./dark-bg-hero.jpg";
 import light_bg_hero from "./light-bg-hero.jpg";
+import github from "./github.png";
+import linkedin from "./linkedin.png";
+import linkedin_dark from "./linkedin-dark.png";
+import twitter from "./twitter.png";
+import twitter_dark from "./twitter-dark.png";
 
 export const assets = {
   user_image,
@@ -86,6 +91,11 @@ export const assets = {
   right_arrow_bold_dark,
   dark_bg_hero,
   light_bg_hero,
+  github,
+  linkedin,
+  linkedin_dark,
+  twitter,
+  twitter_dark
 };
 
 export const workData = [
