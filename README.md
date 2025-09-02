@@ -1,39 +1,31 @@
-Live Link: [Bhavani Murali | Portfolio](https://portfolio-ten-jade-tfxtttsdqp.vercel.app)
+# Portfolio – Bhavani Murali  
 
+Welcome to my personal portfolio!  
+This repository highlights my journey as a **Full Stack Developer**, showcasing projects, skills, and experience in building modern web applications.  
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 🚀 About Me  
+I am a full stack developer with a passion for creating scalable, efficient, and user-friendly digital solutions.  
+From crafting responsive frontends to building robust backends, I enjoy working across the entire development cycle.  
 
-## Getting Started
+## 🛠️ Tech Stack  
+- **Frontend:** HTML, CSS, JavaScript, React, React Native, Vite, Next.js, Tailwind CSS  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB, Firebase, PostgreSQL
+- **Other Tools:** Git, GitHub, REST APIs, VS Code, Power BI
 
-First, run the development server:
+## 📂 Features  
+- Responsive and minimal design  
+- Projects showcasing both frontend and backend development  
+- About, Work, and Contact sections  
 
-```bash
-npm run dev
-# or(&apos;
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🔗 Live Demo  
+Bhavani Murali | Portfolio - [View Portfolio](https://portfolio-ten-jade-tfxtttsdqp.vercel.app)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📬 Contact  
+Let’s connect!  
+- Email: bhavani9271@gmail.com
+- LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/bhavanimurali)
+- GitHub: [github.com/your-username](https://github.com/bhavani-2710)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+⭐ If you found this portfolio inspiring, consider giving it a star!
