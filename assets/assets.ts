@@ -150,9 +150,8 @@ export const workData:Project[] = [
     features: [
       "Real-time audio recording",
       "AI transcription and summarization",
-      "Searchable meeting history",
+      "Browsable meeting history",
       "Exportable notes and summaries",
-      "Offline-first design with local storage",
     ],
     technologies: [
       "React Native (Expo)",
