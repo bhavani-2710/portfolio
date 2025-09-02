@@ -8,7 +8,7 @@ I am a full stack developer with a passion for creating scalable, efficient, and
 From crafting responsive frontends to building robust backends, I enjoy working across the entire development cycle.  
 
 ## 🛠️ Tech Stack  
-- **Frontend:** HTML, CSS, JavaScript, React, Vite, Next.js, Tailwind CSS  
+- **Frontend:** HTML, CSS, JavaScript, React, React Native, Vite, Next.js, Tailwind CSS  
 - **Backend:** Node.js, Express.js  
 - **Database:** MongoDB, Firebase, PostgreSQL
 - **Other Tools:** Git, GitHub, REST APIs, VS Code, Power BI
